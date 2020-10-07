@@ -17,5 +17,5 @@ sources:
 - https://github.com/bitnami/bitnami-docker-ghost
 maintainers:
 - name: Bitnami
-  email: containers@bitnami.com
+  email: containers@bitnami.comm
 engine: gotpl
