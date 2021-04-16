@@ -22,7 +22,9 @@
     {
       "datasources": ["helm"],
       "managers": ["regex"],
+      "matchPackageNames": ["dynatrace-oneagent-operator"],
       "separateMinorPatch": true,
+      "automerge": true,
       "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
     }
   ]
