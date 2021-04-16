@@ -32,7 +32,8 @@
       "managers": ["regex"],
       "matchPackageNames": ["dynatrace-oneagent-operator"],
       "updateTypes": ["patch"],
-      "automerge": true
+      "automerge": true,
+      "requiredStatusChecks": null
     }
   ]
 }
