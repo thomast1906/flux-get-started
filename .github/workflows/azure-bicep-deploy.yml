@@ -17,4 +17,4 @@ jobs:
     - name: Azure Public IP
       run: |
         IP=($(curl -s http://ipinfo.io/json | jq '.ip' | sed -e 's/^"//' -e 's/"$//'))
-        echo "This Microsoft hosted agent public IP is: $IP"
+        echo "This GitHub Workflow agent public IP is: $IP"
