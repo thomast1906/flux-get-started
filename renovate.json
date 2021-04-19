@@ -33,7 +33,7 @@
     {
       "datasources": ["helm"],
       "managers": ["regex"],
-      "matchPackageNames": ["tam"],
+      "matchPackageNames": ["tam1"],
       "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
     }
   ]
