@@ -28,7 +28,6 @@
       "separateMinorPatch": true,
       "automerge": true,
       "recreateClosed": true,
-      "reuseExistingBranch": true,
       "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
     },
     {
