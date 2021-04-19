@@ -30,6 +30,12 @@
       "requiredStatusChecks": null,
       "recreateClosed": true,
       "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
+    },
+    {
+      "datasources": ["helm"],
+      "managers": ["regex"],
+      "matchPackageNames": ["tam"],
+      "registryUrls": ["https://charts.fluxcd.io"]
     }
   ]
 }
