@@ -29,12 +29,6 @@
       "automerge": true,
       "recreateClosed": true,
       "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
-    },
-    {
-      "datasources": ["helm"],
-      "managers": ["regex"],
-      "matchPackageNames": ["tam"],
-      "registryUrls": ["https://raw.githubusercontent.com/Dynatrace/helm-charts/master/repos/stable/"]
     }
   ]
 }
